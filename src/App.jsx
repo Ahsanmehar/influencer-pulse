@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes as RouterRoutes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import InfluencerPage from "./pages/InfluencerPage";
-import InfluencerDetailPage from "./pages/InfluencerDetailPage";
+import InfluencerPage from "./pages/InfluencersPage";
+import { InfluencerDetailPage } from "./pages/InfluencerDetailPage";
 import BlogPage from "./pages/BlogPage";
 import BlogDetailPage from "./pages/BlogDetailPage";
 import AboutPage from "./pages/AboutPage";
@@ -18,7 +18,7 @@ const App = () => {
       <ScrollToTop />
       <RouterRoutes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/influencer" element={<InfluencerPage />} />
+        <Route path="/influencers" element={<InfluencerPage />} />
         <Route
           path="/influencer-detail/:id"
           element={<InfluencerDetailPage />}

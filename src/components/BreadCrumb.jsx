@@ -3,11 +3,11 @@ import TechIcon from "./TechIcon";
 
 const Breadcrumb = ({ pageName, description, detailPage, url }) => {
   return (
-    <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
+    <section className="relative z-10 overflow-hidden pb-10 pt-28 lg:pt-[150px]">
       <div className="container">
-        <div className="flex flex-wrap items-center">
+        <div className="flex flex-wrap items-center gap-y-4">
           <div className="w-full md:w-8/12 lg:w-7/12">
-            <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
+            <div className="max-w-[570px">
               <h1 className="mb-5 text-2xl font-semibold text-black sm:text-3xl">
                 {detailPage ? detailPage : pageName}
               </h1>
@@ -40,7 +40,7 @@ const Breadcrumb = ({ pageName, description, detailPage, url }) => {
                     to={url}
                     className={`pr-1 font-medium ${
                       detailPage
-                        ? "hover:bg-clip-text hover:bg-gradient-to-r hover:from-pink-400 hover:to-violet-500 hover:text-transparent"
+                        ? "text-text hover:bg-clip-text hover:bg-gradient-to-r hover:from-pink-400 hover:to-violet-500 hover:text-transparent"
                         : "bg-clip-text bg-gradient-to-r from-pink-400 to-violet-500 text-transparent"
                     }`}
                   >

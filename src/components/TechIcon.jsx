@@ -69,6 +69,16 @@ import {
   Monitor,
   Home,
   Send,
+  Youtube,
+  Instagram,
+  ArrowLeft,
+  Calendar,
+  MessageSquare,
+  Award,
+  TrendingUp,
+  Languages,
+  BadgeCheckIcon,
+  Airplay,
 } from "lucide-react";
 
 const TechIcon = ({ name, className = "" }) => {
@@ -143,6 +153,17 @@ const TechIcon = ({ name, className = "" }) => {
     monitor: <Monitor className={className} />,
     home: <Home className={className} />,
     send: <Send className={className} />,
+    youtube: <Youtube className={className} />,
+    instagram: <Instagram className={className} />,
+    "arrow-left": <ArrowLeft className={className} />,
+    calendar: <Calendar className={className} />,
+    "message-square": <MessageSquare className={className} />,
+    award: <Award className={className} />,
+    "trending-up": <TrendingUp className={className} />,
+    languages: <Languages className={className} />,
+    "badge-check-icon": <BadgeCheckIcon className={className} />,
+    "alarm-clock-check": <alarm-clock-check className={className} />,
+    airplay: <Airplay className={className} />,
   };
 
   return icons[name.toLowerCase()] || <span className={className}>{name}</span>;
