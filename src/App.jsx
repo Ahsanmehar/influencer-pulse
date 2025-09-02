@@ -11,10 +11,13 @@ import ScrollToTop from "./components/ScrollToTop";
 import ScrollUp from "./components/ScrollUp";
 import LoginPage from "./pages/Auth/loginPage";
 import SignupPage from "./pages/Auth/SignupPage";
+import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
     <BrowserRouter>
+    <Navbar />
       <ScrollToTop />
       <RouterRoutes>
         <Route path="/" element={<HomePage />} />
@@ -32,7 +35,9 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
       </RouterRoutes>
       <ScrollUp />
+      <Footer />
     </BrowserRouter>
+   
   );
 };
 
