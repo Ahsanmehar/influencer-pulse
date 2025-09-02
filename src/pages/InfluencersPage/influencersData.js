@@ -6,8 +6,8 @@ export const influencersData = [
     rating: 4.8,
     profilePicture:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    instagram: 2450000,
-    youtube: 890000,
+    instagram: 1100000,
+    youtube: 1460000,
     facebook: 120000,
     description:
       "Irfan Junejo is one of Pakistan's most popular travel and lifestyle vloggers. Known for his high-quality cinematography and engaging storytelling, he has collaborated with major tourism boards and brands across Pakistan.",
@@ -57,8 +57,8 @@ export const influencersData = [
     rating: 4.7,
     profilePicture:
       "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    instagram: 1850000,
-    youtube: 720000,
+    instagram: 537000,
+    youtube: 1170000,
     tiktok: 950000,
     facebook: 150000,
     description:
@@ -105,12 +105,12 @@ export const influencersData = [
   {
     id: 2,
     name: "WildLens by Abrar",
-    location: "Islamabad, Pakistan",
+    location: "Frankfurt, Germany",
     rating: 4.9,
     profilePicture:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    instagram: 3100000,
-    youtube: 2100000,
+    instagram: 669000,
+    youtube: 2070000,
     tiktok: 1100000,
     facebook: 280000,
     description:
@@ -161,8 +161,8 @@ export const influencersData = [
     rating: 4.6,
     profilePicture:
       "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    instagram: 1650000,
-    youtube: 420000,
+    instagram: 563000,
+    youtube: 817000,
     tiktok: 780000,
     facebook: 95000,
     description:
@@ -209,19 +209,19 @@ export const influencersData = [
   {
     id: 4,
     name: "RHS",
-    location: "Lahore, Pakistan",
+    location: "Rawalpindi, Pakistan",
     rating: 4.7,
     profilePicture:
       "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    instagram: 1950000,
-    youtube: 680000,
+    instagram: 939000,
+    youtube: 1540000,
     tiktok: 820000,
     facebook: 110000,
     description:
       "RHS is a popular content creator known for his reaction videos, comedy sketches, and social commentary. His engaging personality and relatable content have made him a favorite among Pakistani youth.",
     category: "Entertainment & Comedy",
     engagementRate: 10.2,
-    languages: ["Urdu", "Punjabi", "English"],
+    languages: ["Urdu", "English"],
     experience: "4 years",
     pricing: {
       instagram: {
@@ -259,55 +259,56 @@ export const influencersData = [
     ],
   },
   {
-    id: 6,
-    name: "Hitler",
-    location: "Lahore, Pakistan",
+    id: 5,
+    name: "Junaid Akram",
+    location: "Karachi, Pakistan",
     rating: 4.3,
     profilePicture:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    instagram: 950000,
-    youtube: 350000,
-    tiktok: 620000,
-    facebook: 85000,
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    instagram: 799000,
+    youtube: 1250000,
+    tiktok: 724000,
+  facebook: 1550000,
     description:
-      "Hitler is a controversial social media personality known for his bold opinions and comedic content. His unique style of commentary on social issues and current affairs has garnered him a significant following across multiple platforms.",
-    category: "Comedy & Commentary",
-    engagementRate: 8.7,
-    languages: ["Urdu", "Punjabi"],
-    experience: "3 years",
+     "Junaid Akram is a Pakistani comedian, podcaster, and storyteller known for social commentary, travel ‘Walking Tales,’ and long-form podcasts. He blends humor with thoughtful takes on culture, career, and everyday life, engaging a broad South Asian audience.",
+   category: "Comedy, Commentary & Podcasts",
+  engagementRate: 5.1,
+  languages: ["Urdu", "English"],
+  experience: "10+ years",
     pricing: {
-      instagram: {
-        post: 80000,
-        story: 30000,
-        reel: 70000,
-      },
-      youtube: {
-        video: 180000,
-        short: 50000,
-      },
-      tiktok: {
-        video: 60000,
-        live: 25000,
-      },
+    instagram: {
+      post: 150000,
+      story: 60000,
+      reel: 140000
     },
-    portfolio: [
-      "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-    ],
+    youtube: {
+      video: 300000,
+      short: 90000
+    },
+    tiktok: {
+      video: 110000,
+      live: 50000
+    }
+  },
+
+     portfolio: [
+    "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=500&q=80",
+    "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=500&q=80",
+    "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=500&q=80"
+  ],
     reviews: [
-      {
-        reviewer: "Social Media Agency",
-        rating: 4,
-        description:
-          "Controversial but effective for certain campaigns. Generates high engagement and discussion.",
-      },
-      {
-        reviewer: "Brand Manager",
-        rating: 3.5,
-        description:
-          "Polarizing figure but reaches a specific demographic effectively. Requires careful campaign planning.",
-      },
-    ],
+    {
+      reviewer: "Social Media Agency",
+      rating: 4.5,
+      description:
+        "Great for thought-leadership campaigns. Strong recall and above-average watch time on long-form content."
+    },
+    {
+      reviewer: "Brand Manager",
+      rating: 4.2,
+      description:
+        "Professional and timely. Performs best with storytelling briefs and podcast integrations."
+    }
+  ]
   },
 ];

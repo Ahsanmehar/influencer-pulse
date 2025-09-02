@@ -26,7 +26,7 @@ const App = () => {
           path="/influencer-detail/:id"
           element={<InfluencerDetailPage />}
         />
-        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blog-detail/:id" element={<BlogDetailPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact-us" element={<ContactUsPage />} />

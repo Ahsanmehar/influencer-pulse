@@ -1,5 +1,6 @@
-import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
+import React from 'react';
 import TechIcon from '@/components/TechIcon';
 
 const CategoryCard = ({ category, variants }) => {

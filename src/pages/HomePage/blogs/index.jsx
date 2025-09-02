@@ -1,5 +1,6 @@
-import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
+import React from 'react';
 import BlogCard from './BlogCard';
 import { Button } from '@/components/ui/button';
 import { blogData } from './blogsData';

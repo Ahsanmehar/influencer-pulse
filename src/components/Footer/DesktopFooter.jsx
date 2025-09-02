@@ -125,7 +125,7 @@ const FooterDesktop = () => {
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="flex-1 px-4 py-2 bg-black/30 border border-text rounded-lg text-white placeholder-text text-sm focus:outline-none focus:border-secondary transition-colors duration-300"
+                  className="flex-1 px-2 py-2 bg-black/30 border border-text rounded-lg text-white placeholder-text text-sm focus:outline-none focus:border-secondary transition-colors duration-300"
                 />
                 <Button variant="secondary" size="sm">
                   Subscribe

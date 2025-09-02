@@ -79,6 +79,22 @@ import {
   Languages,
   BadgeCheckIcon,
   Airplay,
+  Menu,
+  X,
+  Twitter,
+  Facebook,
+  Linkedin,
+  Phone,
+  Search,
+  ShieldCheck,
+  MessageCircleMore,
+  NotebookText,
+  CircleGauge,
+  CircleDollarSign,
+  Gift,
+  Heart,
+  Film,
+  MoveRight,
 } from "lucide-react";
 
 const TechIcon = ({ name, className = "" }) => {
@@ -164,6 +180,23 @@ const TechIcon = ({ name, className = "" }) => {
     "badge-check-icon": <BadgeCheckIcon className={className} />,
     "alarm-clock-check": <alarm-clock-check className={className} />,
     airplay: <Airplay className={className} />,
+    menu: <Menu className={className} />,
+    x: <X className={className} />,
+    twitter: <Twitter className={className} />,
+    facebook: <Facebook className={className} />,
+    linkedin: <Linkedin className={className} />,
+    phone: <Phone className={className} />,
+    search: <Search className={className} />,
+    "shield-check": <ShieldCheck className={className} />,
+    chat: <MessageCircleMore className={className} />,
+    note: <NotebookText className={className}/>,
+    dashboard: <CircleGauge className={className} />,
+    money: <CircleDollarSign className={className}/>,
+    gift: <Gift className={className} />,
+    heart: <Heart className={className} />,
+    film: <Film className={className} />,
+    right: <MoveRight className={className} />,
+    verify: <BadgeCheckIcon className={className}/>
   };
 
   return icons[name.toLowerCase()] || <span className={className}>{name}</span>;
