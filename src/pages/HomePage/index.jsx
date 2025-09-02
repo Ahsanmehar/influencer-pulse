@@ -5,31 +5,22 @@ import Hero from "./hero";
 import TechIcon from "@/Components/TechIcon";
 import { Textarea } from "@/Components/ui/textarea";
 import { Label } from "@/components/ui/label";
-
+import ExploreCategories from "./categories";
+import Features from "./features";
+import BlogSection from "./blogs";
+import CtaSection from "./cta";
+import Influencer from "./influencers"
 export default function HomePage() {
 
   return (
     <>
-      <BreadCrumb
-        pageName="Programs"
-        description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci rem ipsam modi aliquam"
-        url="/program"
-      />
       <main className="text-gray/50 text-2xl font-bold">
-        <Button className="w-[500px] mb-10" variant="default" size="sm">
-          <TechIcon name="clock" />
-          Learn More about it
-        </Button>
-        <Button className="w-[500px] mb-10" variant="secondary" size="lg">
-          Learn More about it
-          <TechIcon name="brain-circuit" />
-        </Button>
-        <Label>Name</Label>
-        <Input type="email" placeholder="Enter password" />
-        <Textarea />
-        <div className="w-99 h-99 bg-white shadow-three"></div>
-        <h1 className="text-secondary bg-primary">Ahsan</h1>
-        <Hero />
+      <Hero />
+      <Features />
+      <Influencer />
+      <ExploreCategories />
+      <BlogSection />
+      <CtaSection />
       </main>
     </>
   );
