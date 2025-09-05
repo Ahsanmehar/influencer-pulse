@@ -24,7 +24,7 @@ export const InfluencerDetailPage = () => {
   };
 
   return (
-    <main className="bg-bg">
+    <main>
       <Breadcrumb
         pageName="Influencers"
         description="Dive into the full profile of this influencer, including their portfolio, engagement stats, pricing, and genuine reviews from brands."

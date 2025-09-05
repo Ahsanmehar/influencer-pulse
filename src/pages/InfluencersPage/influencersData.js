@@ -1,11 +1,12 @@
+import influencer_images from "@/assets/images/influencer";
+
 export const influencersData = [
   {
     id: 1,
     name: "Irfan Junejo",
     location: "Karachi, Pakistan",
     rating: 4.8,
-    profilePicture:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+    profilePicture: influencer_images.irfan_junejo_1,
     instagram: 1100000,
     youtube: 1460000,
     facebook: 120000,
@@ -31,9 +32,9 @@ export const influencersData = [
       },
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      influencer_images.irfan_junejo_2,
+      influencer_images.irfan_junejo_3,
+      influencer_images.irfan_junejo_4,
     ],
     reviews: [
       {
@@ -52,11 +53,10 @@ export const influencersData = [
   },
   {
     id: 2,
-    name: "Mooro",
+    name: "Mooroo",
     location: "Lahore, Pakistan",
     rating: 4.7,
-    profilePicture:
-      "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+    profilePicture: influencer_images.mooroo_1,
     instagram: 537000,
     youtube: 1170000,
     tiktok: 950000,
@@ -83,9 +83,9 @@ export const influencersData = [
       },
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      influencer_images.mooroo_4,
+      influencer_images.mooroo_2,
+      influencer_images.mooroo_3,
     ],
     reviews: [
       {
@@ -103,12 +103,11 @@ export const influencersData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "WildLens by Abrar",
     location: "Frankfurt, Germany",
     rating: 4.9,
-    profilePicture:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+    profilePicture: influencer_images.wildlens_by_abrar_1,
     instagram: 669000,
     youtube: 2070000,
     tiktok: 1100000,
@@ -135,9 +134,9 @@ export const influencersData = [
       },
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1419064642531-e575728395f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1504870712357-65ea720d6078?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      influencer_images.wildlens_by_abrar_2,
+      influencer_images.wildlens_by_abrar_3,
+      influencer_images.wildlens_by_abrar_4,
     ],
     reviews: [
       {
@@ -155,12 +154,11 @@ export const influencersData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "Raza Samo",
     location: "Karachi, Pakistan",
     rating: 4.6,
-    profilePicture:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+    profilePicture: influencer_images.raza_samo_1,
     instagram: 563000,
     youtube: 817000,
     tiktok: 780000,
@@ -187,9 +185,9 @@ export const influencersData = [
       },
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      influencer_images.raza_samo_2,
+      influencer_images.raza_samo_3,
+      influencer_images.raza_samo_4,
     ],
     reviews: [
       {
@@ -207,12 +205,11 @@ export const influencersData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "RHS",
     location: "Rawalpindi, Pakistan",
     rating: 4.7,
-    profilePicture:
-      "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+    profilePicture: influencer_images.rhs_1,
     instagram: 939000,
     youtube: 1540000,
     tiktok: 820000,
@@ -239,9 +236,9 @@ export const influencersData = [
       },
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1554384645-13eab165c24b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      influencer_images.rhs_2,
+      influencer_images.rhs_3,
+      influencer_images.rhs_4,
     ],
     reviews: [
       {
@@ -259,56 +256,55 @@ export const influencersData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "Junaid Akram",
     location: "Karachi, Pakistan",
     rating: 4.3,
-    profilePicture:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    profilePicture: influencer_images.junaid_akram_1,
     instagram: 799000,
     youtube: 1250000,
     tiktok: 724000,
-  facebook: 1550000,
+    facebook: 1550000,
     description:
-     "Junaid Akram is a Pakistani comedian, podcaster, and storyteller known for social commentary, travel ‘Walking Tales,’ and long-form podcasts. He blends humor with thoughtful takes on culture, career, and everyday life, engaging a broad South Asian audience.",
-   category: "Comedy, Commentary & Podcasts",
-  engagementRate: 5.1,
-  languages: ["Urdu", "English"],
-  experience: "10+ years",
+      "Junaid Akram is a Pakistani comedian, podcaster, and storyteller known for social commentary, travel ‘Walking Tales,’ and long-form podcasts. He blends humor with thoughtful takes on culture, career, and everyday life, engaging a broad South Asian audience.",
+    category: "Comedy, Commentary & Podcasts",
+    engagementRate: 5.1,
+    languages: ["Urdu", "English"],
+    experience: "10+ years",
     pricing: {
-    instagram: {
-      post: 150000,
-      story: 60000,
-      reel: 140000
+      instagram: {
+        post: 150000,
+        story: 60000,
+        reel: 140000,
+      },
+      youtube: {
+        video: 300000,
+        short: 90000,
+      },
+      tiktok: {
+        video: 110000,
+        live: 50000,
+      },
     },
-    youtube: {
-      video: 300000,
-      short: 90000
-    },
-    tiktok: {
-      video: 110000,
-      live: 50000
-    }
-  },
 
-     portfolio: [
-    "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=500&q=80"
-  ],
+    portfolio: [
+      influencer_images.junaid_akram_2,
+      influencer_images.junaid_akram_3,
+      influencer_images.junaid_akram_4,
+    ],
     reviews: [
-    {
-      reviewer: "Social Media Agency",
-      rating: 4.5,
-      description:
-        "Great for thought-leadership campaigns. Strong recall and above-average watch time on long-form content."
-    },
-    {
-      reviewer: "Brand Manager",
-      rating: 4.2,
-      description:
-        "Professional and timely. Performs best with storytelling briefs and podcast integrations."
-    }
-  ]
+      {
+        reviewer: "Social Media Agency",
+        rating: 4.5,
+        description:
+          "Great for thought-leadership campaigns. Strong recall and above-average watch time on long-form content.",
+      },
+      {
+        reviewer: "Brand Manager",
+        rating: 4.2,
+        description:
+          "Professional and timely. Performs best with storytelling briefs and podcast integrations.",
+      },
+    ],
   },
 ];

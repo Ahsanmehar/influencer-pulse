@@ -12,7 +12,7 @@ const Signup = () => {
             initial={{ opacity: 0, y: 40 }} 
             animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="max-w-[570px] w-full mx-auto rounded-xl shadow-one p-7"
+            className="max-w-[570px] w-full mx-auto rounded-xl bg-white shadow-one p-7"
           >
             <div className="flex flex-col gap-4">
               <Button
@@ -116,7 +116,7 @@ const Signup = () => {
                 <p className="text-text text-center mt-6">
                   Already have an account?
                   <NavLink
-                    to="/signin"
+                    to="/login"
                     className="text-secondary ease-out duration-200 hover:text-primary pl-2"
                   >
                     Sign in Now

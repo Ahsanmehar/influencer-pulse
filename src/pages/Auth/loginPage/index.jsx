@@ -12,7 +12,7 @@ const Login = () => {
           initial={{ opacity: 0, y: 40 }}         
           animate={{ opacity: 1, y: 0 }}         
           transition={{ duration: 0.6, ease: "easeOut" }} 
-          className="max-w-[570px] w-full mx-auto rounded-xl  shadow-one p-7"
+          className="max-w-[570px] w-full mx-auto rounded-xl shadow-one bg-white p-7"
         >
           <form>
             <div className="mb-5">

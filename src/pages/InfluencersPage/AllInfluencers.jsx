@@ -20,7 +20,7 @@ export const AllInfluencers = ({ viewType,filteredInfluencers }) => {
           )
         )
       ) : (
-        <div className="col-span-12 flex items-center justify-center">
+        <div className="col-span-12 flex items-center justify-center w-full">
           <Empty /> 
         </div>
       )}

@@ -3,7 +3,7 @@ import TechIcon from "./TechIcon";
 
 const Breadcrumb = ({ pageName, description, detailPage, url }) => {
   return (
-    <section className="relative z-10 overflow-hidden pb-10 pt-28 lg:pt-[150px]">
+    <section className="relative z-10 overflow-hidden pb-10 pt-28 lg:pt-[120px]">
       <div className="container">
         <div className="flex flex-wrap items-center gap-y-4">
           <div className="w-full md:w-8/12 lg:w-7/12">

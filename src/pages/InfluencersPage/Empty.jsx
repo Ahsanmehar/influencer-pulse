@@ -1,25 +1,22 @@
+import { Button } from "@/components/ui/button";
 import { NavLink } from "react-router-dom";
 
-const Empty = () => {
+const EmptyInfluencers = () => {
   return (
-    <section>
-      <div className="bg-white  py-10 sm:py-20 px-4 text-center rounded-xl shadow-md">
-        <h2 className="font-semibold text-primary text-[90px] sm:text-[130px]">
-          404
-        </h2>
-        <h3 className="font-medium text-secondary text-custom-xl mb-3">
-          Sorry, the page can’t be found
-        </h3>
+    <section className="bg-white py-10 sm:py-20 px-4 text-center rounded-xl shadow-md w-full">
+      <h2 className="font-semibold bg-clip-text bg-gradient-to-r from-pink-400 to-violet-500 text-transparent text-[90px] sm:text-[130px]">
+        0
+      </h2>
+      <h3 className="font-medium text-secondary text-custom-xl mb-3">
+        No influencers found
+      </h3>
 
-        <p className="max-w-[410px] text-mygray w-full mx-auto mb-6">
-          The page you were looking for appears to have been moved, deleted or
-          does not exist.
-        </p>
+      <p className="max-w-[410px] text-text w-full mx-auto mb-6">
+        We couldn't find any influencers matching your filter criteria. Try adjusting your filters.
+      </p>
 
-        <NavLink
-          to="/"
-          className="inline-flex items-center gap-2 font-medium text-white bg-primary py-3 px-6 rounded-md ease-out duration-200 hover:bg-primary"
-        >
+      <NavLink to="/influencers">
+        <Button size="lg">
           <svg
             className="fill-current"
             width="20"
@@ -33,11 +30,11 @@ const Empty = () => {
               fill=""
             />
           </svg>
-          Back to Home
-        </NavLink>
-      </div>
+          Reset Filters
+        </Button>
+      </NavLink>
     </section>
   );
 };
 
-export default Empty;
+export default EmptyInfluencers;

@@ -22,7 +22,7 @@ const SingleGridItem = ({ influencer }) => {
       whileHover={{ y: -9 }}
       className="h-full flex flex-col rounded-lg overflow-hidden shadow-two bg-white transition-all duration-300 p-[17px] group"
     >
-      <div className="relative pt-[60%] w-full rounded-lg overflow-hidden">
+      <div className="relative h-[250px] w-full rounded-lg overflow-hidden">
         <img
           src={influencer.profilePicture}
           alt={influencer.name}
