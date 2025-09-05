@@ -9,18 +9,23 @@ import ExploreCategories from "./categories";
 import Features from "./features";
 import BlogSection from "./blogs";
 import CtaSection from "./cta";
-import Influencer from "./influencers"
+import Influencer from "./influencers";
+import HowWorks from "./howWorks";
+import Coursels from "./Usersays/Coursels";
 export default function HomePage() {
-
   return (
     <>
       <main className="text-gray/50 text-2xl font-bold">
-      <Hero />
-      <Features />
-      <Influencer />
-      <ExploreCategories />
-      <BlogSection />
-      <CtaSection />
+        <Hero />
+        <Features />
+        <HowWorks />
+        <Influencer />
+        {/* impact numbers */}
+        <ExploreCategories />
+
+        <Coursels />
+        <BlogSection />
+        <CtaSection />
       </main>
     </>
   );

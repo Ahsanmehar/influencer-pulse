@@ -6,8 +6,8 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 const Hero = () => {
   return (
-    <section className="bg-primary min-h-[80vh] md:h-[100vh] w-full flex items-center justify-center relative overflow-hidden px-4 py-8 md:py-0">
-      <div className="container mx-auto gap-8 md:gap-20 w-full flex items-center flex-col md:flex-row justify-center min-h-full">
+    <section className="bg-primary  min-h-[80vh] md:h-[100vh] w-full flex items-center justify-center relative overflow-hidden px-4 py-8 md:py-0">
+      <div className="container  md:mb-15 pb-5 mx-auto gap-8 md:gap-20 w-full flex items-center flex-col md:flex-row justify-center min-h-full">
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ const Hero = () => {
                   ★★★★☆
                 </span>
               </div>
-              <p className="text-xs md:text-sm text-gray-200">
+              <p className="text-xs md:text-sm -mt-2 text-gray-200">
                 Rated 4.8/5 (243 Reviews)
               </p>
             </div>
